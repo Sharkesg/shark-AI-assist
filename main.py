@@ -1,6 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-import Wikipedia as ts
 
 
 genai.configure(api_key=st.secrets["api"])
