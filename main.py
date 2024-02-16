@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-import tensorflow as st
+
 
 genai.configure(api_key=st.secrets["api"])
 def ai(txt):
