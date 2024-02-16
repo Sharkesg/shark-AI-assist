@@ -38,7 +38,7 @@ if command:
     elif "who" in command:
         with st.chat_message("BOT"):
             st.write("shark AI assist")
-            st.session_state.message.append({"role":"BOT","message":"Im gamkers AI Assistant"})
+            st.session_state.message.append({"role":"BOT","message":"Im shark AI Assist"})
     else:
         with st.chat_message("BOT"):
             data = ai(command)
