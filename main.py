@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-
+import pytorch as pt
 
 genai.configure(api_key=st.secrets["api"])
 def ai(txt):
